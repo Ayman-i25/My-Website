@@ -43,7 +43,7 @@ export const WebSiteData = [
         dec: '....',
         TechnologiesUsed: ['HTML', 'CSS', 'JavaScript','React.js', 'MUI'],
         GitRepo:'https://github.com/Ayman-i25/Resume',
-        live: 'https://resume-website-0.netlify.app/contact'
+        live: 'https://resume-website-0.netlify.app/'
     },
     {
         id:33,
