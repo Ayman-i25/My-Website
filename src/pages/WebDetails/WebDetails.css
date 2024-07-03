@@ -1,0 +1,27 @@
+.web-details {
+    background-color: var(--background-color);
+    .img{
+        padding: 10px;
+        background: #1c1c1c;
+        border-radius: 10px;
+        img{
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+            animation: swipe 19s ease infinite;
+        }
+    }
+}
+
+
+@keyframes swipe { 
+    0% {
+        object-position: top;
+    }
+    50% {
+        object-position: bottom;
+    }
+    100% {
+        object-position: top;
+    }
+}

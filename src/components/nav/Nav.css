@@ -1,0 +1,11 @@
+.navbar{
+    background-color: var(--background-color) !important;
+    li{
+        cursor: pointer;
+    }
+    .nav-link{
+        &:hover{
+            color: var(--second-color) !important;
+        }
+    }
+}
