@@ -3,7 +3,7 @@ import { BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
 import { FaBootstrap } from "react-icons/fa6";
 import { FaGitSquare } from "react-icons/fa";
 import { DiPhotoshop, DiIllustrator } from "react-icons/di";
-import { SiMicrosoftexcel, SiMicrosoftword,SiMui, SiNextdotjs  } from "react-icons/si";
+import { SiMicrosoftexcel, SiMicrosoftword,SiMui  } from "react-icons/si";
 import { MdDraw } from "react-icons/md";
 
 export const skillData = [

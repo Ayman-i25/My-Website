@@ -1,5 +1,4 @@
 import React from 'react'
-import { designData } from '../../pages/Home/myWork/designData'
 
 const DesignCard = ({ data }) => {
     return (

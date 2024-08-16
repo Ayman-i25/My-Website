@@ -1,16 +1,12 @@
-import React, { useEffect, useLayoutEffect, useRef } from 'react'
-import { GrHtml5, GrCss3 } from "react-icons/gr";
+import React, { useLayoutEffect, useRef } from 'react'
 import './Skills.css'
 import { skillData } from './SkillData';
 import Header from '../../../components/header/Header';
-import { TimelineLite } from 'gsap/gsap-core';
-import { useInView } from 'react-intersection-observer';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 gsap.registerPlugin(ScrollTrigger)
 const Skills = () => {
     const skillsContainerRef = useRef(null);
-    const tl = gsap.timeline();
 
     useLayoutEffect(() => {
         const el = skillsContainerRef.current;

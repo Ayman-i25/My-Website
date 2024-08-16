@@ -1,16 +1,12 @@
 import Header from '../../../components/header/Header'
 import './MyWork.css'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import Btn from '../../../components/Btn/Btn'
 import { WebSiteData } from './WebSiteData'
 import Card from '../../../components/card/Card'
 import { Link } from 'react-router-dom'
-import { TimelineLite, Power2 } from 'gsap/gsap-core'
-import { useInView } from 'react-intersection-observer'
 import DesignCard from '../../../components/DesignCard/DesignCard'
 import { designData } from './designData'
-
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 const MyWork = () => {
     const [currentList, setCurrentList] = useState('web')

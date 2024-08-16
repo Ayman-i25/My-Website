@@ -1,6 +1,5 @@
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 import DesignCard from '../../components/DesignCard/DesignCard'
-import Card from '../../components/card/Card'
 import Header from '../../components/header/Header'
 import Nav from '../../components/nav/nav2'
 import { designData } from '../Home/myWork/designData'

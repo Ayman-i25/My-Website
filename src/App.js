@@ -1,31 +1,16 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Nav from './components/nav/Nav';
 import Home from './pages/Home/Home';
 import WebSite from './pages/WebSite/WebSite';
 import Footer from './components/Footer/Footer';
 import WebDetails from './pages/WebDetails/WebDetails';
-import { TweenMax } from 'gsap/gsap-core';
-import { useEffect, useRef, } from 'react';
+import {  useRef, } from 'react';
 import React from 'react'
-import '../src/Locomoitve-scroll.css'
-import LocomotiveScroll from 'locomotive-scroll';
 import DesignPage from './pages/designPage/DesignPage';
 
 function App() {
 
   const scrollRef = useRef(null)
-  // useEffect(() => {
-  //   let locomotive = new LocomotiveScroll({
-  //     el: scrollRef.current,
-  //     smooth: true,
-  //   })
-
-  //   return () => {
-  //     locomotive.destroy()
-  //   }
-  // }, [])
-
 
   return (
     <div className="App">

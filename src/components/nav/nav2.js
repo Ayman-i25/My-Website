@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Nav.css'
 import React from 'react';
-import { IoMdMenu } from "react-icons/io";
 
 const Nav = () => {
 

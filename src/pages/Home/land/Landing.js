@@ -4,7 +4,6 @@ import me from '../../../assets/imgs/IMG_20240110_220907.jpg'
 import { Link } from 'react-scroll'
 import {  TimelineLite,TweenMax, Power3, Power2 } from 'gsap';
 import React, { useEffect, useRef } from 'react';
-import CSSRulePlugin from 'gsap/CSSRulePlugin';
 const Landing = () => {
     
     let tl = new TimelineLite()
