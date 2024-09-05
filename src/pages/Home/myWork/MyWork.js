@@ -40,6 +40,7 @@ const MyWork = () => {
                                         </div>
                                     )
                                 }
+                                return null
                             })}
                             <div className='mt-3'>
                                 <Link to={'/websites'}>
@@ -59,6 +60,7 @@ const MyWork = () => {
                                         </div>
                                     )
                                 }
+                                return null
                             })
                             }
                             <div className='mt-3'>

@@ -7,7 +7,7 @@ import Btn from '../../components/Btn/Btn'
 import Nav from '../../components/nav/nav2'
 const WebDetails = () => {
     const { id } = useParams()
-    const website = WebSiteData.find((ele) => ele.id == id);
+    const website = WebSiteData.find((ele) => ele.id === id);
     return (
         <>
             <Nav />
