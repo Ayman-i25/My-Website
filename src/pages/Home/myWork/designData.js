@@ -1,5 +1,5 @@
 import img1 from '../../../assets/imgs/SM7-01.png'
-import img2 from '../../../assets/imgs/SM7-02.png'
+// import img2 from '../../../assets/imgs/SM7-02.png'
 import img3 from '../../../assets/imgs/SM7-03.png'
 import img4 from '../../../assets/imgs/SM7-04.png'
 import img5 from '../../../assets/imgs/SM6-Mockup.png'
@@ -35,13 +35,34 @@ import img36 from '../../../assets/imgs/manar (8).png'
 import img37 from '../../../assets/imgs/manar (9).png'
 import img38 from '../../../assets/imgs/manar (10).png'
 import img39 from '../../../assets/imgs/manar (11).png'
+import img40 from '../../../assets/imgs/almadinaHos (1).png'
+import img41 from '../../../assets/imgs/almadinaHos (2).png'
+import img42 from '../../../assets/imgs/almadinaHos (3).png'
+import img43 from '../../../assets/imgs/almadinaHos (4).png'
+import img44 from '../../../assets/imgs/almadinaHos (5).png'
+import img45 from '../../../assets/imgs/almadinaHos (6).png'
+import img46 from '../../../assets/imgs/almadinaHos (7).png'
+import img47 from '../../../assets/imgs/almadinaHos (8).png'
+import img48 from '../../../assets/imgs/almadinaHos (9).png'
+import img49 from '../../../assets/imgs/almadinaHos (10).png'
+import img50 from '../../../assets/imgs/almadinaHos (11).png'
+import img51 from '../../../assets/imgs/Product shipping company (1).png'
+import img52 from '../../../assets/imgs/Product shipping company (2).png'
+import img53 from '../../../assets/imgs/Product shipping company (3).png'
+import img54 from '../../../assets/imgs/Product shipping company (4).png'
+import img55 from '../../../assets/imgs/Product shipping company (5).png'
+import img56 from '../../../assets/imgs/Product shipping company (6).png'
+import img57 from '../../../assets/imgs/Product shipping company (7).png'
+import img58 from '../../../assets/imgs/Product shipping company (8).png'
+import img59 from '../../../assets/imgs/Product shipping company (9).png'
 
 
 const images = [
-    img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
+    img1,  img3, img4, img5, img6, img7, img8, img9, img10,
     img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
     img21, img22, img23, img24, img25, img26, img29, img30,
-    img31, img32, img33,img34, img35, img36, img37, img38, img39,
+    img31, img32, img33,img34, img35, img36, img37, img38, img39,img40,img41,img42,img43,img44,
+    img45, img46, img47, img48, img49, img50, img51, img52, img53, img54, img55, img56, img57, img58, img59,
 ];
 
 export const designData = images.map((src, index) => ({ id: index + 1, src: src }));

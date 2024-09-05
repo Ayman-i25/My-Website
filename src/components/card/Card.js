@@ -21,7 +21,7 @@ const Card = ({ img, title, dec, key, id }) => {
         <div>
             <div ref={cardContainer} key={key} className='card text-start p-2'>
                 <div className='img-container'>
-                    <img className='w-100' src={img} alt={title} />
+                    <img className='w-100' loading='lazy' src={img} alt={title} />
                 </div>
                 <div className='text p-2'>
                     <h4 className='pt-3 m-0'>{title}</h4>

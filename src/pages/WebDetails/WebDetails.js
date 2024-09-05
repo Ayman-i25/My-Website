@@ -16,7 +16,7 @@ const WebDetails = () => {
                     <div className='row align-items-center'>
                         <div className='col-md-6'>
                             <div className='img mb-5'>
-                                <img className='w-100' src={website.details_img} alt='project-img' />
+                                <img className='w-100' loading='lazy' src={website.details_img} alt='project-img' />
                             </div>
                         </div>
                         <div className='col-md-6'>

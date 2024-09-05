@@ -39,7 +39,7 @@ const Landing = () => {
                     </div>
                     <div className='col-md-5'>
                         <div ref={imgContainer}  className='image'>
-                            <img ref={img} className='w-100' src={me} alt='pic' />
+                            <img ref={img} loading='lazy' className='w-100' src={me} alt='pic' />
                         </div>
                     </div>
                 </div>
