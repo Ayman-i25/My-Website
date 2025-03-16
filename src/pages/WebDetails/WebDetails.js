@@ -7,10 +7,11 @@ import Btn from '../../components/Btn/Btn'
 import Nav from '../../components/nav/nav2'
 const WebDetails = () => {
     const { id } = useParams()
-    const website = WebSiteData.find((ele) => ele.id === id);
-    return (
+    const website = WebSiteData.find((ele) => String(ele.id) === String(id));
+        return (
         <>
             <Nav />
+            {website &&
             <div className='web-details py-5'>
                 <div className='container mb-5'>
                     <div className='row align-items-center'>
@@ -57,6 +58,7 @@ const WebDetails = () => {
                 </div> 
                 <Service />
             </div>
+    }
         </>
     )
 }

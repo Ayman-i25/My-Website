@@ -3,8 +3,11 @@ import { BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
 import { FaBootstrap } from "react-icons/fa6";
 import { FaGitSquare } from "react-icons/fa";
 import { DiPhotoshop, DiIllustrator } from "react-icons/di";
-import { SiMicrosoftexcel, SiMicrosoftword,SiMui  } from "react-icons/si";
+import {  SiMui  } from "react-icons/si";
 import { MdDraw } from "react-icons/md";
+import { PiMicrosoftExcelLogoFill, PiMicrosoftWordLogoBold  } from "react-icons/pi";
+import { SiTailwindcss } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 export const skillData = [
     {
@@ -28,12 +31,20 @@ export const skillData = [
         icone: <SiMui style={{ color: '#1976d2' }} />,
     },
     {
+        title: 'Tailwindcss',
+        icone: <SiTailwindcss style={{ color: '#38BDF8' }} />,
+    },
+    {
         title: 'React.js',
         icone: <GrReactjs style={{ color: '#6c6cff' }} />,
     },
     {
+        title: 'Next.js',
+        icone: <RiNextjsFill style={{ color: '#000' }} />,
+    },
+    {
         title: 'TypeScript',
-        icone: <BiLogoTypescript style={{ color: '#06d9d9' }} />,
+        icone: <BiLogoTypescript style={{ color: '#3178C6' }} />,
     },
     {
         title: 'Git & GitHub',
@@ -53,11 +64,11 @@ export const skillData = [
     },
     {
         title: 'Excel',
-        icone: <SiMicrosoftexcel style={{ color: '#4bf14b' }} />,
+        icone: <PiMicrosoftExcelLogoFill style={{ color: '#4bf14b' }} />,
     },
     {
         title: 'Word',
-        icone: <SiMicrosoftword style={{ color: '#007bff' }} />,
+        icone: <PiMicrosoftWordLogoBold  style={{ color: '#007bff' }} />,
     },
 
 ]

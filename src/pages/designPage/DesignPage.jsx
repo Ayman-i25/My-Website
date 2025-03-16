@@ -7,6 +7,7 @@ import './style.css'
 import React from 'react'
 
 const DesignPage = () => {
+    console.log(designData)
     return (
         <>
             <Nav />
